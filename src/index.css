@@ -1,7 +1,13 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+}
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--color-quinary);
 }
 
 code {
@@ -10,8 +16,14 @@ code {
 }
 
 :root {
-  --color-primary: #8f8f8f;
-  --color-background: #1d1d1d;
+  --font-primary: #28A034;
+  --font-secondary: #48B653;
+  --font-tertiary: #82CD8A;
+  --color-primary: #530966;
+  --color-secondary: #5C0E6F;
+  --color-tertiary: #641378;
+  --color-quaternary: #741D8A;
+  --color-quinary: #9430AE;
 }
 
 a, a:hover {
