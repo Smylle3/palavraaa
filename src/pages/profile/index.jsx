@@ -1,11 +1,11 @@
 import React from "react";
 import "./styles.css";
 
-export default function Home() {
+export default function Profile() {
   return (
     <>
       <div className="title">
-        <h1>Palavraaa</h1>
+        <h1>Profile</h1>
       </div>
     </>
   );
